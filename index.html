@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework lesson 17</title>
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<style type="text/css">
+	ul {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover:not(.active){
+			background-color: green;
+		}
+		.active{
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Welcome to our site !!!</h1>
+	<ul>
+		<li ><a class="active" href="#home"><i class="fa fa-home">Home</i></a></li>
+		<li><a href="#about"><i class="fa fa-users">About</i></a></li>
+		<li><a href="#shop"><i class="fa fa-shopping-cart">Shop</i></a></li>
+		<li><a href="#games"><i class="fa fa-gamepad">Games</i></a></li>
+		<li><a href="#movies"><i class="fa fa-film">Movies</i></a></li>
+		<li><a href="#contact"><i class="fa fa-address-book">Contact</i></a></li>
+		<li><a href="#others"><i class="fa fa-th-large">Others</i></a></li>
+	</ul>
+
+	<div id="home"; style="padding: 20px; margin-top: 30px; background-color: lightblue; height: 1500px">
+		<h1 style="text-align: center;">Please, register first by filling the application form.</h1>
+        <form action="green.html" target="_blank" >
+	    <fieldset>
+		<legend>Application form</legend>
+	   	 Full name:<br>
+	    <input type="text" name="name" placeholder="Full name" required><br>
+	    Telephone: <br>
+	    <input type="text" name="telephone" placeholder="Phone number" required>
+	    <br>
+	    Gender<br>
+	    <input type="radio" name="Male" value="Male">Male<br>
+	    <input type="radio" name="Female" value="Female">Female<br>
+	    <br>
+	    Country: <br>
+		<select name="Country">
+		<option value="USA">USA</option>
+		<option value="Germany">Germany</option>
+		<option value="Britian">Britian</option>
+		<option value="Others">Others</option>
+		</select><br>
+		<input type="submit" name="send" value="Send">
+		</fieldset>
+		</form>
+	</div>
+
+	<div id="about"; style="padding: 20px; margin-top: 30px; background-color: lightgrey; height: 1500px">
+		<h1 style="text-align: center;">Bohodir Qosimjonov</h1>
+		<h1><img src="bohodir.jpg" width="350" height="450" style= "float: left;"></h1>
+		<p style="font-size: 40px">Hey mate, My full name is Bohodir Qosimjonov. I was born on the first of November in Tashkent and where I grew up there. My hometown is Tashkent the capital of Uzbekistan. There are many attractive places and namely those attracted tourists. My hobby is listen to music , so I'm captivating to computer programming. Also,  my major is that too.4 I study at school in the 9th grade.</p>
+	</div>
+
+	<div id="movies"; style="padding: 20px; margin-top: 30px; background-color: lightgrey; height: 1500px">
+		<img src="thebeauty.jpg" width="450" height="520" style="float: left;">
+		<h1 style="text-align: center;">The Beauty and the Beast</h1>
+		<p style="font-size: 30px">Once upon a time as a merchant set off for market, he asked each of his three daughters what she would like as a present on his return. The first daughter wanted a brocade dress, the second a pearl necklace, but the third, whose name was Beauty, the youngest, prettiest and sweetest of them all, said to her father:
+		"All I'd like is a rose you've picked specially for me!"
+		beauty and the beastWhen the merchant had finished his business, he set off for home. However, a sudden storm blew up, and his horse could hardly make headway in the howling gale. Cold and weary, the merchant had lost all hope of reaching an inn when he suddenly noticed a bright light shining in the middle of a wood. As he drew near, he saw that it was a castle, bathed in light.Once upon a time as a merchant set off for market, he asked each of his three daughters what she would like as a present on his return. The first daughter wanted a brocade dress, the second a pearl necklace, but the third, whose name was Beauty, the youngest, prettiest and sweetest of them all, said to her father:
+		"All I'd like is a rose you've picked specially for me!"
+		beauty and the beastWhen the merchant had finished his business, he set off for home. However, a sudden storm blew up, and his horse could hardly make headway in the howling gale. Cold and weary, the merchant had lost all hope of reaching an inn when he suddenly noticed a bright light shining in the middle of a wood. As he drew near, he saw that it was a castle, bathed in light.</p>
+	</div>
+
+	<div id="contact"; style="padding: 20px; margin-top: 30px; background-color: lightgrey; height: 1500px">
+		<img style="float: right;" src="Habib.jpg" width="300" height="400">
+        <h1 style="text-align: center;">Habib Nurmugamadov</h1>
+        <p >Xabib Abdulmanapovich Nurmagamedov 20-sentabr 1988-yilda tugʻilgan — isteʼfodagi rossiyalik professional jangchi.Rossiyaning Dogʻiston viloyatidan kelgan avar — Nurmagamedov, UFC chempioni boʻlgan birinchi musulmon sanaladi.</p><br><br>
+        <p >U, xususan, Ultimate Fighting Championship (UFC) ning yengil vazn toifasida qatnashgan boʻlib, 2018-yilning aprelidan to 2020-yil oktabrigacha (isteʼfiga chiqqunga qadar) UFC yengil vazn chempioni boʻlgan.</p><br><br>
+        <p >Sambo boʻyicha ikki karra jahon chempioni boʻlib, u sambo, dzyudo va kurash bilan shugʻullangan. Uning kurash uslubi uni MMA tarixidagi eng yaxshi sportchilarning biriga aylantirdi.</p><br><br>
+        <p >2020-yil oktabr oyi holatiga koʻra, Nurmagamedov Instagramda 24 milliondan oshiq obunachilar ega hisoblanadi.</p><br><br>
+	</div>
+
+	<div id="games"; style="padding: 20px; margin-top: 30px;
+	    background-color: white; height: 1500px">
+		<script>
+        function light(sw) {var pic;
+        if (sw == 0) {pic = "pic_bulboff.gif"} 
+        else {pic = "pic_bulbon.gif"}
+        document.getElementById('myImage').src = pic;}
+        </script>
+        <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+        <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+        </p>
+	</div>
+
+	<div id="shop"; style="padding: 20px; margin-top: 30px;
+	    background-color: purple; height: 1500px">
+		<h1 style="text-align: center;">Select the desired site for shopping or selling</h1>
+	    <iframe src="https://wwwamazon.com." width="400" height="300"></iframe>
+        <iframe src="https://alibaba.com" width="400" height="300"></iframe>
+        <iframe src="https://wwwmyntra.com" width="400" height="300"></iframe>
+        <iframe src="https://wwwwalmart.com" width="400" height="300"></iframe>
+        <iframe src="https://pwconsultinggroup.com" width="400" height="300"></iframe>
+        <iframe src="https://asos.com" width="400" height="300"></iframe>
+        <iframe src="https://entrackr.com"></iframe>
+        <iframe src="https://kun.uz"></iframe>
+        <iframe src="https://qalampir.uz"></iframe>
+	</div>
+</body>
+</html>
